@@ -14,8 +14,6 @@ Write and implement Python code that integrates with multiple AI tools to automa
 <br>Experiment the persona pattern as a programmer for any specific applications related with your interesting area. 
 <br>Generate the outoput using more than one AI tool and based on the code generation analyse and discussing that. 
 
-** Conclusion:**
-
 **TASK 1 :Prompt to Generate Python Code for Interacting with Multiple APIs**
 <br>**Prompt:** <br>Act as a Python programmer. Write Python code that fetches current weather data for Chennai from two different APIs — OpenWeatherMap and WeatherAPI. Display the temperature, humidity, and condition from both APIs.
 <br>Output (ChatGPT): <br>
@@ -51,7 +49,7 @@ The code directly requests JSON data from both APIs, extracts the relevant weath
 <br>2.Extracts key parameters — temperature, humidity, and condition.
 <br>3.Prints results clearly for both APIs side by side.
 
-Output (Gemini):
+**Output (Gemini):**
 <br>
 ```
 import requests
@@ -181,7 +179,7 @@ Gemini’s code uses modular functions, timeouts, exception handling, and better
 
 **Prompt:**<br> Now write a Python function that compares the results of the two APIs (temperature, humidity, and condition) and prints the differences clearly.
 
-Output (ChatGPT):
+**Output (ChatGPT):**
 <br>
 ```
 def compare_weather(ow, wa):
@@ -208,7 +206,7 @@ This version is simple and easy to understand, ideal for demonstrating concept-l
 
 
 
-Output ( Gemini):
+**Output ( Gemini):**
 <br>
 
 ```
@@ -394,7 +392,7 @@ Gemini’s comparison code prints a well-structured report and manages error cas
 
 **Prompt:** <br> Based on the comparison results, write a Python snippet that prints suggestions — for example, which API seems more accurate or if the user should average both values for better reliability.
 
-Output (ChatGPT):
+**Output (ChatGPT):**
 <br>
 ```
 def generate_insights(temp_diff, hum_diff):
@@ -412,7 +410,7 @@ It’s a quick, simple decision-making function that prints a brief insight base
 <br>1.Suggests whether the APIs are consistent or not.
 <br>2.Recommends averaging the values if significant differences are found.
 
-Output (Gemini):
+**Output (Gemini):**
 <br>
 ```
 import requests
@@ -663,5 +661,4 @@ Reflection Note:
 
 <br>Overall, both tools responded effectively, demonstrating that well-structured prompts lead to accurate, explainable, and executable code outputs across multiple AI platforms.
 
-**
-Result: The corresponding Prompt is executed successfully.
+**Result:** The corresponding Prompt is executed successfully.
